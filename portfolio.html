@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Mustech Dynamic Solutions Portfolio — Websites, mobile apps, branding and design projects.">
+  <title>Portfolio — Mustech Dynamic Solutions</title>
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800;900&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/animations.css">
+</head>
+<body>
+<div id="nav-placeholder"></div>
+
+<section class="page-hero">
+  <div class="container">
+    <div class="breadcrumb-nav"><a href="index.html">Home</a><span>/</span><span style="color:rgba(255,255,255,.6);">Portfolio</span></div>
+    <h1>Work That <span>Speaks</span></h1>
+    <p>A selection of projects we've delivered for clients across Lagos and Nigeria. Every project is a partnership built on trust, craft and results.</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:1rem;margin-bottom:2.5rem;" class="reveal-up">
+      <div class="filter-bar">
+        <button class="filter-pill active" data-filter="all">All Projects</button>
+        <button class="filter-pill" data-filter="web">Websites</button>
+        <button class="filter-pill" data-filter="app">Mobile Apps</button>
+        <button class="filter-pill" data-filter="brand">Branding</button>
+        <button class="filter-pill" data-filter="design">UI/UX</button>
+      </div>
+      <p style="font-size:.82rem;color:var(--text-muted);" id="project-count">Showing 8 projects</p>
+    </div>
+
+    <div class="portfolio-grid" id="portfolio-grid">
+      <div class="portfolio-card reveal-up" data-cat="web">
+        <div class="portfolio-thumb" style="background:linear-gradient(135deg,#000066,#003399);">
+          <div class="portfolio-thumb-inner" style="flex-direction:column;gap:.75rem;">
+            <i class="bi bi-cart3" style="font-size:3rem;color:rgba(0,204,255,.6);"></i>
+            <span style="font-family:var(--font-head);font-weight:700;color:#fff;">Fashion E-commerce</span>
+          </div>
+        </div>
+        <span class="portfolio-tag">Website</span>
+        <div class="portfolio-overlay">
+          <h5>Lagos Fashion House</h5>
+          <p>E-commerce + brand identity · 3 weeks delivery</p>
+          <span class="view-link" style="cursor:default;"><i class="bi bi-check-circle"></i> Delivered</span>
+        </div>
+      </div>
+
+      <div class="portfolio-card reveal-up delay-2" data-cat="brand">
+        <div class="portfolio-thumb" style="background:linear-gradient(135deg,#001a4d,#003399);">
+          <div class="portfolio-thumb-inner" style="flex-direction:column;gap:.75rem;">
+            <i class="bi bi-palette2" style="font-size:3rem;color:rgba(0,204,255,.6);"></i>
+            <span style="font-family:var(--font-head);font-weight:700;color:#fff;">FinTech Brand Identity</span>
+          </div>
+        </div>
+        <span class="portfolio-tag">Branding</span>
+        <div class="portfolio-overlay">
+          <h5>FinTech Startup</h5>
+          <p>Logo · Brand guide · Social media kit</p>
+          <span class="view-link" style="cursor:default;"><i class="bi bi-check-circle"></i> Delivered</span>
+        </div>
+      </div>
+
+      <div class="portfolio-card reveal-up delay-3" data-cat="app">
+        <div class="portfolio-thumb" style="background:linear-gradient(135deg,#000033,#000066);">
+          <div class="portfolio-thumb-inner" style="flex-direction:column;gap:.75rem;">
+            <i class="bi bi-phone" style="font-size:3rem;color:rgba(0,204,255,.6);"></i>
+            <span style="font-family:var(--font-head);font-weight:700;color:#fff;">Service Marketplace App</span>
+          </div>
+        </div>
+        <span class="portfolio-tag">Mobile App</span>
+        <div class="portfolio-overlay">
+          <h5>Lagos Gig Marketplace</h5>
+          <p>Full-stack iOS + Android · 8 weeks</p>
+          <span class="view-link" style="cursor:default;"><i class="bi bi-check-circle"></i> Delivered</span>
+        </div>
+      </div>
+
+      <div class="portfolio-card reveal-up" data-cat="web">
+        <div class="portfolio-thumb" style="background:linear-gradient(135deg,#003399,#0055bb);">
+          <div class="portfolio-thumb-inner" style="flex-direction:column;gap:.75rem;">
+            <i class="bi bi-building" style="font-size:3rem;color:rgba(0,204,255,.6);"></i>
+            <span style="font-family:var(--font-head);font-weight:700;color:#fff;">Corporate Portal</span>
+          </div>
+        </div>
+        <span class="portfolio-tag">Website</span>
+        <div class="portfolio-overlay">
+          <h5>Consulting Group</h5>
+          <p>Corporate site + client dashboard</p>
+          <span class="view-link" style="cursor:default;"><i class="bi bi-check-circle"></i> Delivered</span>
+        </div>
+      </div>
+
+      <div class="portfolio-card reveal-up delay-2" data-cat="brand">
+        <div class="portfolio-thumb" style="background:linear-gradient(135deg,#00003d,#000066);">
+          <div class="portfolio-thumb-inner" style="flex-direction:column;gap:.75rem;">
+            <i class="bi bi-shop" style="font-size:3rem;color:rgba(0,204,255,.6);"></i>
+            <span style="font-family:var(--font-head);font-weight:700;color:#fff;">Retail Chain Rebrand</span>
+          </div>
+        </div>
+        <span class="portfolio-tag">Branding</span>
+        <div class="portfolio-overlay">
+          <h5>Multi-location Retail</h5>
+          <p>Complete visual rebrand · 5 locations</p>
+          <span class="view-link" style="cursor:default;"><i class="bi bi-check-circle"></i> Delivered</span>
+        </div>
+      </div>
+
+      <div class="portfolio-card reveal-up delay-3" data-cat="app">
+        <div class="portfolio-thumb" style="background:linear-gradient(135deg,#000066,#001a4d);">
+          <div class="portfolio-thumb-inner" style="flex-direction:column;gap:.75rem;">
+            <i class="bi bi-graph-up" style="font-size:3rem;color:rgba(0,204,255,.6);"></i>
+            <span style="font-family:var(--font-head);font-weight:700;color:#fff;">SME Analytics Platform</span>
+          </div>
+        </div>
+        <span class="portfolio-tag">App</span>
+        <div class="portfolio-overlay">
+          <h5>Analytics Dashboard</h5>
+          <p>Real-time SaaS platform for retailers</p>
+          <span class="view-link" style="cursor:default;"><i class="bi bi-check-circle"></i> Delivered</span>
+        </div>
+      </div>
+
+      <div class="portfolio-card reveal-up" data-cat="design">
+        <div class="portfolio-thumb" style="background:linear-gradient(135deg,#001a80,#003399);">
+          <div class="portfolio-thumb-inner" style="flex-direction:column;gap:.75rem;">
+            <i class="bi bi-layout-text-window" style="font-size:3rem;color:rgba(0,204,255,.6);"></i>
+            <span style="font-family:var(--font-head);font-weight:700;color:#fff;">Healthcare App UI</span>
+          </div>
+        </div>
+        <span class="portfolio-tag">UI/UX</span>
+        <div class="portfolio-overlay">
+          <h5>MedConnect App</h5>
+          <p>Patient-doctor booking app UI design</p>
+          <span class="view-link" style="cursor:default;"><i class="bi bi-check-circle"></i> Delivered</span>
+        </div>
+      </div>
+
+      <div class="portfolio-card reveal-up delay-2" data-cat="web">
+        <div class="portfolio-thumb" style="background:linear-gradient(135deg,#00004d,#0000aa);">
+          <div class="portfolio-thumb-inner" style="flex-direction:column;gap:.75rem;">
+            <i class="bi bi-mortarboard" style="font-size:3rem;color:rgba(0,204,255,.6);"></i>
+            <span style="font-family:var(--font-head);font-weight:700;color:#fff;">EdTech Learning Platform</span>
+          </div>
+        </div>
+        <span class="portfolio-tag">Website</span>
+        <div class="portfolio-overlay">
+          <h5>EduNaija Platform</h5>
+          <p>Online learning portal with video courses</p>
+          <span class="view-link" style="cursor:default;"><i class="bi bi-check-circle"></i> Delivered</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="text-center" style="margin-top:4rem;" class="reveal-up">
+      <p style="color:var(--text-muted);margin-bottom:1.5rem;">Have a project in mind? Let's discuss it.</p>
+      <a href="contact.html" class="btn-primary">Start a Project <i class="bi bi-arrow-right"></i></a>
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section id="cta">
+  <div class="cta-glow-left"></div><div class="cta-glow-right"></div>
+  <div class="container text-center" style="position:relative;z-index:1;">
+    <div class="reveal-up">
+      <span class="section-eyebrow" style="display:inline-block;margin-bottom:1rem;">Your Project Is Next</span>
+      <h2 style="margin-bottom:1rem;">Ready to add your brand <span>to this portfolio?</span></h2>
+      <p style="color:rgba(255,255,255,.6);max-width:480px;margin:0 auto 2.5rem;">Let's talk about your vision. Free discovery call, detailed quote within 48 hours.</p>
+      <a href="contact.html" class="btn-primary" style="font-size:1rem;padding:.9rem 2.5rem;">Let's Build Together <i class="bi bi-arrow-right"></i></a>
+    </div>
+  </div>
+</section>
+
+<div id="footer-placeholder"></div>
+<script src="js/components.js"></script>
+<script src="js/main.js"></script>
+<script>
+// Update project count on filter
+document.querySelectorAll('.filter-pill').forEach(btn => {
+  btn.addEventListener('click', function () {
+    const filter = this.dataset.filter;
+    const cards = document.querySelectorAll('.portfolio-card');
+    let count = 0;
+    cards.forEach(c => { if (filter === 'all' || c.dataset.cat === filter) count++; });
+    setTimeout(() => {
+      document.getElementById('project-count').textContent =
+        `Showing ${count} project${count !== 1 ? 's' : ''}`;
+    }, 350);
+  });
+});
+</script>
+</body>
+</html>
